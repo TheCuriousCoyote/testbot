@@ -6,10 +6,10 @@ import websocket
 import json
 import os
 from solana.rpc.api import Client
-from solana.transaction import Transaction, AccountMeta
-from solana.keypair import Keypair
-from solana.publickey import PublicKey
-from solana.system_program import transfer
+from solders.transaction import Transaction, AccountMeta
+from solders.keypair import Keypair
+from solders.pubkey import Pubkey
+from solders.system_program import transfer
 from solana.rpc.types import TxOpts
 
 # Configurations
